@@ -10,6 +10,7 @@ Vous pouvez miner sur:
 # Installation
 
 ## Option 1: Build from source (native executable)
+* `git clone https://github.com/K-i-k-k-o/bridge-consensus.git`
 
 * Installez go 1.18 ou plus récent
 
@@ -26,7 +27,7 @@ ouvrez les ports:
 
 Installez docker
 
-* Clonez ce repository (`git clone lien_de_repo)
+* `git clone https://github.com/K-i-k-k-o/bridge-consensus.git`
 
 * `cd bridge-consensus`  
 

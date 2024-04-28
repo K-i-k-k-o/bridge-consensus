@@ -13,7 +13,13 @@ Vous pouvez miner sur:
 
 * Installez go 1.18 ou plus récent
 
+* `cd bridge-consensus`
+
 * entrez `cd cmd/kaspabridge/;go build .;./kaspabridge`
+
+ouvrez les ports:
+5555
+10106
 
 ## Option 2: Docker all-in-one
 
@@ -21,8 +27,12 @@ Vous pouvez miner sur:
 Installez docker
 
 * Clonez ce repository (`git clone lien_de_repo)
-* 
-* Entrez dans le dossier avec la commande cd  et entrez la commande `docker compose -f docker-compose-all-src.yml up -d --build` 
+
+* `cd bridge-consensus`  
+
+* entrez la commande: 
+
+`docker compose -f docker-compose-all-src.yml up -d --build` 
 
 vous pouvez modifier les parametres dans [config.yaml](cmd/kaspabridge/config.yaml) ou dans  [docker-compose-all-src.yml](docker-compose-all-src.yml) 
 

@@ -10,7 +10,7 @@ services:
     user: "0"
     command:
       - '-stats=false'
-      - '-consensus=host.docker.internal:10106'
+      - '-consensus=host.docker.internal:10105'
     ports:
       - 5555:5555
       - 2114:2114

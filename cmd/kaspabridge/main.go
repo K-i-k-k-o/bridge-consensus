@@ -28,7 +28,7 @@ func main() {
 
 	flag.StringVar(&cfg.StratumPort, "stratum", cfg.StratumPort, "stratum port to listen on, default `:5555`")
 	flag.BoolVar(&cfg.PrintStats, "stats", cfg.PrintStats, "true to show periodic stats to console, default `true`")
-	flag.StringVar(&cfg.RPCServer, "consensus", cfg.RPCServer, "address of the consensusd node, default `localhost:10106`")
+	flag.StringVar(&cfg.RPCServer, "consensus", cfg.RPCServer, "address of the consensusd node, default `localhost:10105`")
 	flag.DurationVar(&cfg.BlockWaitTime, "blockwait", cfg.BlockWaitTime, "time in ms to wait before manually requesting new block, default `3s`")
 	flag.UintVar(&cfg.MinShareDiff, "mindiff", cfg.MinShareDiff, "minimum share difficulty to accept from miner(s), default `64`")
 	flag.BoolVar(&cfg.VarDiff, "vardiff", cfg.VarDiff, "true to enable auto-adjusting variable min diff, default `true`")

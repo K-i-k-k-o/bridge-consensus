@@ -20,7 +20,7 @@ Vous pouvez miner sur:
 
 ouvrez les ports:
 5555
-10106
+10105
 
 ## Option 2: Docker all-in-one
 
